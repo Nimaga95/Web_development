@@ -1,172 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Elhadji Nimaga</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        font-size: 16px;
-        line-height: 1.6;
-        margin: 20px;
-      }
+\documentclass{article}
+\usepackage{geometry}
+\usepackage{xcolor}
 
-      h1 {
-        color: blue;
-        text-align: center;
-        margin-bottom: 0px;
-      }
+\geometry{
+    a4paper,
+    total={170mm,257mm},
+    left=20mm,
+    top=5mm,
+}
 
-      h2 {
-        color: blue;
-        position: relative;
-        display: inline-block;
-        margin-bottom: 5px;
-      }
+\title{\textcolor{blue}{\textbf{Elhadji Nimaga}}}
+\newcommand{\myposition}{Economist}
+\newcommand{\myemail}{nimagaelhadji@gmail.com}
+\newcommand{\myphone}{418 271-3841}
+\newcommand{\GitHub}{https://github.com/Nimaga95}
+\newcommand{\LinkedIn}{https://www.linkedin.com/in/el-hadji-nimaga-168043128/}
+\date{}
 
-      h2::after {
-        content: "";
-        position: absolute;
-        bottom: -5px;
-        left: 0;
-        width: 100%;
-        border-bottom: 2px solid blue;
-      }
+\begin{document}
 
-      p,
-      ul,
-      li {
-        margin: 0;
-        padding: 0;
-      }
+\maketitle
+\vspace{-8ex}
+\section*{Position} 
+\myposition
 
-      ul {
-        list-style: none;
-      }
+\section*{Contact Information}
+\begin{tabular}{ll}
+    Email: & \myemail \\
+    Phone: & \myphone \\
+    LinkedIn: & \LinkedIn\\
+    GitHub: &\GitHub\\
+\end{tabular}
 
-      .section {
-        margin-bottom: 0px;
-      }
+\section*{\textcolor{blue}{Formation}}
+\begin{itemize}
+    \item Sept 2022 - Dec 2023: Certificate in Computer Science, Université Laval
+  \item 2023: The Complete 2023 Web Development Bootcamp by Dr.Angela, Udemy
 
-      .section-content {
-        margin-left: 30px;
-      }
+    \item 2018: Master's degree in economics, Université Laval
+    \item 2016: Bachelor's degree in economics and management, Université du Sahel
+    \item 2013: High school diploma in science
+\end{itemize}
 
-      .section-content li {
-        margin-bottom: 5px;
-      }
+\section*{\textcolor{blue}{Work Experience}}
+\subsection*{Co-Founder of VenteFlash}
+January 2022 - Present
 
-      .summary {
-        font-style: italic;
-        text-align: center;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Elhadji Nimaga</h1>
-    <p class="summary">Economist and Data Analyst</p>
+\subsection*{Economist - Québec International}
+May 2020 - Present
+\begin{itemize}
+    \item Follow the evolution of the economic situation and the business environment at the regional, national, and international levels.
+    \item Manage the organization's economic databases and monitor and update them.
+    \item Analyze survey data and produce reports for decision-making.
+    \item Collaborate in the analysis of the main economic indicators, and support the establishment of the economic outlook.
+    \item Write and publish periodic economic reports on the region.
+\end{itemize}
 
-    <div class="section">
-      <h2>Summary</h2>
-      <p>
-        I am a hardworking and dedicated individual with experience in economic
-        development and data analysis.
-      </p>
-    </div>
+\subsection*{Customer Service Supervisor - Hôtel Champlain}
+January 2019 - May 2020
+\begin{itemize}
+    \item Supervise and control the work of the night shift.
+    \item Coordinate and participate in all reception activities.
+    \item Supervise, support, motivate and mobilize the night team as a whole.
+\end{itemize}
 
-    <div class="section">
-      <h2>Formation</h2>
-      <ul class="section-content">
-          <li>2023: The Complete 2023 Web Development Bootcamp</li>
-        <li>
-          2022 - present: Certificate in Computer Engineering, Université Laval
-        </li>
-      
-        <li>2018: Master's degree in economics, Université Laval</li>
-        <li>
-          2016: Bachelor's degree in economics and management, Université du
-          Sahel
-        </li>
-        <li>2013: High school diploma in science</li>
-      </ul>
-    </div>
+\subsection*{Residence Advisor - Université Laval}
+September 2017 - August 2018
+\begin{itemize}
+    \item Welcome and manage the arrivals and departures of students.
+    \item Take calls (English/French) and respond to student inquiries.
+    \item Promote the university and its various entertainment activities.
+\end{itemize}
 
-    <div class="section">
-      <h2>Work Experience</h2>
-      <ul class="section-content">
-        <li>
-          <h3>Co-Founder of VenteFlash</h3>
-          <p>January 2022 - Present</p>
-        </li>
-        <li>
-          <h3>Economist - Québec International</h3>
-          <p>May 2020 - Present</p>
-          <ul>
-            <li>
-              Follow the evolution of the economic situation and the business
-              environment at the regional, national, and international levels.
-            </li>
-            <li>Manage databases and respond to data requests from various business lines within the organization.</li>
-            <li>Analyze survey data and produce reports for decision-making.</li>
-            <li>
-              Collaborate in the analysis of the main economic indicators, and
-              support the establishment of the economic outlook.
-            </li>
-            <li>Write and publish periodic economic reports on the region.</li>
-          </ul>
-        </li>
-        <li>
-          <h3>Customer Service Supervisor - Hôtel Champlain</h3>
-          <p>January 2019 - May 2020</p>
-          <ul>
-            <li>Supervise and control the work of the night shift.</li>
-            <li>Coordinate and participate in all reception activities.</li>
-            <li>
-              Supervise, support, motivate and mobilize the night team as a
-              whole.
-            </li>
-          </ul>
-        </li>
-        <li>
-          <h3>Residence Advisor - Université Laval</h3>
-          <p>September 2017 - August 2018</p>
-          <ul>
-            <li>Welcome and manage the arrivals and departures of students.</li>
-            <li>
-              Take calls (English/French) and respond to student inquiries.
-            </li>
-            <li>
-              Promote the university and its various entertainment activities.
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
+\section*{\textcolor{blue}{Skills}}
+\begin{itemize}
+    \item Microsoft Office
+    \item Python
+    \item C++
+    \item Web Development
+    \item Organizational Skills
+    \item Communication Skills
+\end{itemize}
 
-    <div class="section">
-      <h2>Skills</h2>
-      <ul class="section-content">
-        <li>Microsoft Office</li>
-        <li>Python</li>
-        <li>C++</li>
-        <li>Web Development</li>
-        <li>Organizational Skills</li>
-        <li>Communication Skills</li>
-      </ul>
-    </div>
+\section*{\textcolor{blue}{Awards and Certification}}
+\begin{itemize}
+    \item Certificate in Advanced Excel - Cégep Garneau (2021)
+    \item Certificate in Machine Learning - Cégep de Sainte-Foy (2021)
+    \item Certificate in Big Data - Cégep de Sainte-Foy (2021)
+    \item Master's degree scholarship for international students - Université Laval (2017)
+\end{itemize}
 
-    <div class="section">
-      <h2>Awards and Certification</h2>
-      <ul class="section-content">
-        <li>Certificate in Advanced Excel - Cégep Garneau</li>
-        <li>Certificate in Advanced Excel - Cégep Garneau (2021)</li>
-        <li>Certificate in Machine Learning - Cégep de Sainte-Foy (2021)</li>
-        <li>Certificate in Big Data - Cégep de Sainte-Foy (2021)</li>
-        <li>
-          Master's degree scholarship for international students - Université
-          Laval (2017)
-        </li>
-      </ul>
-    </div>
-  </body>
-</html>
+\end{document}
